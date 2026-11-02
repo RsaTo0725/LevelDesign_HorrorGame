@@ -19,11 +19,15 @@ MonoBehaviour:
     icon: {fileID: 0}
   - id: rusty_key
     displayName: "\u9306\u3073\u305F\u9375"
-    description: "\u5ECA\u4E0B\u306E\u68DA\u3067\u898B\u3064\u3051\u305F\u53E4\u3044\u9375\u3002\u5965\u306E\u6249\u306B\u5408\u3044\u305D\u3046\u3060\u3002"
+    description: "\u3069\u3053\u304B\u3067\u4F7F\u3048\u305D\u3046\u3060"
+    icon: {fileID: 0}
+  - id: infirmary_key
+    displayName: "\u4FDD\u5065\u5BA4\u306E\u30AB\u30AE"
+    description: "\u5C11\u3057\u9306\u3073\u3066\u3044\u308B"
     icon: {fileID: 0}
   flags:
-  - id: read_note
-    description: "\u673A\u306E\u30E1\u30E2\u3092\u8AAD\u3093\u3060"
+  - id: read_board
+    description: "\u9ED2\u677F\u306E\u6587\u5B57\u3092\u8AAD\u3093\u3060"
     defaultValue: 0
   - id: heard_radio
     description: "\u30E9\u30B8\u30AA\u306E\u58F0\u3092\u805E\u3044\u305F"
@@ -33,4 +37,16 @@ MonoBehaviour:
     defaultValue: 0
   - id: door_b_opened
     description: "\u5965\u306E\u6249\u3092\u958B\u3051\u305F"
+    defaultValue: 0
+  - id: heard_footsteps
+    description: "\u8DB3\u97F3\u3092\u805E\u3044\u305F"
+    defaultValue: 0
+  - id: read_note
+    description: "\u30CE\u30FC\u30C8\u3092\u8AAD\u3093\u3060"
+    defaultValue: 0
+  - id: saw_shadow
+    description: "\u4EBA\u5F71\u3092\u307F\u305F"
+    defaultValue: 0
+  - id: door_infirmary
+    description: "\u4FDD\u5065\u5BA4\u306E\u30C9\u30A2\u3092\u307F\u305F"
     defaultValue: 0

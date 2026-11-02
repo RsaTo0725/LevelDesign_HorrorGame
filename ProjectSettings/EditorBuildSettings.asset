@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/Scenes/HorrorDemo.unity
+    path: Assets/_MyProject/Scenes/TestScene.unity
     guid: e13f87b9e71a4bd4484561695ce8c72e
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_MyProject/Scenes/OreScene.unity
+    guid: 12db56419ab8ddc4186580708acdc80c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
